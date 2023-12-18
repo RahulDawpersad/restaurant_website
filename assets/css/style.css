@@ -289,9 +289,6 @@ body {
   }
 
   @media(max-width: 780px){
-    .section{
-        overflow-x: hidden;
-    }
     .burger-loader{
         width: 50%;
         height: 50%;
