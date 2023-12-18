@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kokkari | Restaurant</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to JQUERY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="assets/scss/module.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="preloader">
+      <img src="assets/img/burger.gif" alt="burger Loader" class="burger-loader">
+    </div>
+
+    <!-- Responsive Navbar -->
+    <div class="Kokkari-container">
+      <header class="header" id="header">
+        <section class="wrapper container">
+          <a href="./index.html" class="brand" id="icon">
+            <img src="assets/img/Kokkari (1).png" class="logo" alt="logo" />
+          </a>
+          <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+          <span class="overlay"></span>
+          <nav class="navbar" id="navbar">
+            <ul class="menu" id="menu">
+              <li class="menu-item">
+                <a href="#home" class="menu-link">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#about" class="menu-link">About</a>
+              </li>
+              <li class="menu-item menu-dropdown">
+                <span class="menu-link" data-toggle="submenu"
+                  >Menu<i class="bx bx-chevron-down"></i
+                ></span>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="#" class="submenu-link">Lunch Menu</a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="#" class="submenu-link">Dinner Menu</a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="#" class="submenu-link">Wine</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Cuisine</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Reservations</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Private Dining</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <!-- Home Section -->
+      <section id="home" class="section">
+        <!-- Welcome Message -->
+        <div class="list-wrapper">
+          <ul class="fly-in-text animate-text hidden">
+            <li>K</li>
+            <li>O</li>
+            <li>K</li>
+            <li>K</li>
+            <li>A</li>
+            <li>R</li>
+            <li>I</li>
+          </ul>
+          <img
+            src="assets/img/cutlery_2199439.png"
+            class="home-icon"
+            alt="fork&spoon"
+          />
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="footer" class="section">
+        <div class="footer">
+          <div class="heading">
+            <h2>Kokkari</h2>
+          </div>
+          <div class="content">
+            <div class="services">
+              <h4>More</h4>
+              <hr />
+              <p><a href="#">Press Room</a></p>
+              <p><a href="#">Gift Certificates & Cookbook</a></p>
+              <p><a href="#">Contact</a></p>
+            </div>
+            <!-- <div class="social-media">
+              <h4>Social</h4>
+              <p>
+                <a href="https://www.linkedin.com/in/sanket-bodke-995b5b205/"
+                  ><i class="fab fa-linkedin"></i> Linkedin</a
+                >
+              </p>
+              <p>
+                <a href="https://twitter.com/Sanket46171296"
+                  ><i class="fab fa-twitter"></i> Twitter</a
+                >
+              </p>
+              <p>
+                <a href="https://github.com/sanketbodke"
+                  ><i class="fab fa-github"></i> Github</a
+                >
+              </p>
+              <p>
+                <a href="https://codepen.io/sanketbodke"
+                  ><i class="fab fa-codepen"></i> Codepen</a
+                >
+              </p>
+              <p>
+                <a href="https://www.instagram.com/imsanketbodke/?hl=en"
+                  ><i class="fab fa-instagram"></i> Instagram</a
+                >
+              </p>
+            </div> -->
+            <div class="links">
+              <h4>links</h4>
+              <hr />
+              <p><a href="#">Home</a></p>
+              <p><a href="#">About</a></p>
+              <p><a href="#">Reservations</a></p>
+              <p><a href="#">Hours & Directions</a></p>
+            </div>
+            <div class="details">
+              <h4 class="address">Address</h4>
+              <hr />
+              <p>KOKKARI | EVVIA</p>
+              <p>KOKKARI ESTIATORIA</p>
+              <p>200 Jackson Street (at Front St.)</p>
+              <p">San Francisco, CA 94111</p>
+              <span> P: <a href="#">415.981.0983</a> </span>
+              <p><a href="#"></a></p>
+            </div>
+          </div>
+          <footer>
+            <hr />
+            &copy; 2024 Kokkari
+          </footer>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
